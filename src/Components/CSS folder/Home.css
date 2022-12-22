@@ -1,0 +1,51 @@
+.home{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    background-color: #414141;
+    color: #FFF;
+    padding: 15px 100px;
+}
+.nav_cards{
+    display: flex;
+    padding: 25px 100px;
+}
+.series_card{
+    height: 200px;
+    width: 150px;
+    background-image: url(../../Assets/clapboard1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    margin-right: 50px;
+}
+
+.movies_card {
+    height: 200px;
+    width: 150px;
+    background-image: url(../../Assets/clapboard1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: grid;
+    place-items: center;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+.link_name{
+    color: #000;
+    padding: 10px;
+}
+@media only screen and (max-width: 1020px) {
+    .title {
+        padding: 15px 25px;
+    }
+    .nav_cards {
+        padding: 25px 25px;
+    }
+}

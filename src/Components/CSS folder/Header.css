@@ -1,0 +1,36 @@
+.header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #0084FF;
+    padding: 25px 100px;
+    color: #FFF;
+}
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFF;
+  
+    margin-top: 10px;
+}
+.header button{
+    background: #424242;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        width: 100%;
+    padding: 25px 25px;
+    justify-content: center;
+    }
+}

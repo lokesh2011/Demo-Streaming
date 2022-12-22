@@ -1,0 +1,33 @@
+.movies {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.movies_list {
+    height: 93%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 25px 100px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+.loader{
+    padding: 25px 100px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .movies_list{
+    grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .movies_list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
